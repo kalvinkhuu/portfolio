@@ -51,10 +51,42 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
+  "Java",
+  "Python",
+  "Node.js",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "JavaScript",
+  "Angular",
+];
+
+export const experiences = [
+  {
+    title: "Software Engineer",
+    company: "Google",
+    date: "Oct 2019 - Present",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid.",
+  },
+  {
+    title: "Front-End Developer",
+    company: "Twitter",
+    date: "Jun 2018 - Oct 2019",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid.",
+  },
+  {
+    title: "Web Developer",
+    company: "Facebook",
+    date: "Jun 2017 - Jun 2018",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid.",
+  },
+];
+
+export const educations = [
+  {
+    title: "B. Eng. in Software Engineering",
+    date: "Aug 2020 - Apr 2024",
+    university: "McGill University",
+    location: "McGill University (Montreal, QC)",
+    img: "./mcgill.png",
+    courses: "Web Development, Applied Machine Learning, Computer Vision, Object-Oriented Programming, Data Structures & Algorithms",
+  },
 ];

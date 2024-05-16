@@ -13,7 +13,7 @@ export default async (req, res) => {
 
     const mailData = {
       from: email,
-      to: 'your-email@example.com',
+      to: 'kalvin.khuu@gmail.com',
       subject: `Message from ${name}`,
       text: message,
       replyTo: email

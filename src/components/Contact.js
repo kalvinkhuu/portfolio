@@ -15,16 +15,27 @@ export default function Contact() {
       .join("&");
   }
 
-  function handleSubmit(e) {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  }
+
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    if (response.ok) {
+      console.log('Form submitted successfully');
+      // Clear the form
+      setName('');
+      setEmail('');
+      setMessage('');
+    } else {
+      console.log('Form submission failed');
+    }
+  };
 
   return (
     <section id="contact" className="relative">
@@ -66,7 +77,6 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">

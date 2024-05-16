@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import SmoothScroll from "smooth-scroll";
+import TawkToChat from './components/TawkToChat';
 
 
 
@@ -28,6 +29,7 @@ export default function App() {
       <Projects className="mb-20" />
       <Skills className="mb-20" />
       <Contact />
+      <TawkToChat />
     </main>
   );
 }

@@ -55,7 +55,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-indigo-400 leading-relaxed" href="mailto:kalvin.khuu@gmail.com">
                 kalvin.khuu@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -74,7 +74,7 @@ export default function Contact() {
             Contact Me <span role="img" aria-label="laptop">📧</span> 
           </h2>
           <p className="leading-relaxed mb-5">
-            If you have any questions about my experiences or would like to work together, please feel free to reach out to me!
+            If you have any questions, feel free to reach out to me through email or with the live chat in the corner of this website!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

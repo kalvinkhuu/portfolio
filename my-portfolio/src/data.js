@@ -1,53 +1,37 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "KnowKnot (Project Manager)",
+    subtitle: "Django and Angular",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+      "Implemented a NLP model with BERT to classify & cluster info, and displaying it on an interactive web interface",
+    image: "./Knowknot.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Dashcam Analyzer",
+    subtitle: "YoloV8, OpenCV, and TensorFlow",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Wrote a Python program that provides different analytics from dashcam footage",
+    image: "./dashcam.gif", // TODO: Add project gif
+    link: "https://github.com/kalvinkhuu/ecse415/blob/main/project/ECSE415_project.ipynb", // TODO: Add link to project
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "NF-TEA",
+    subtitle: "Vue.js and Spring Boot",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Designed and programmed a NFT marketplace with the user's Instagram pictures",
+    image: "./NFTea.gif",
+    link: "https://github.com/NFTEA-Winter2022/NF-TEA",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Ice Cream Game",
+    subtitle: "C# and Unity",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Created a 3D video game over 72 hours with a team of 4 people for the Ludum Dare competition",
+    image: "./icecream.gif", 
+    link: "https://nickw22.itch.io/theicecreamgame",
   },
-];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
 ];
 
 export const skills = [
@@ -61,32 +45,54 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software Engineer",
-    company: "Google",
-    date: "Oct 2019 - Present",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid.",
+    title: "Software Analyst Intern",
+    company: "Desjardins Group",
+    date: "May 2023 - Aug 2023",
+    desc: "Worked with the team of TFE, Electronic Fund Transfers, to modernize the current application of DRD, Direct Deposit-Withdrawal",
+    points: ["Successfully solved character encoding discrepancies to achieve 100% precision per 1000 files", "Developed a Python script to reliably reproduce bugs to allow their systematic identification and resolution", "Designed and optimized SQL/Oracle queries to retrieve files exhibiting problematic behavior, allowing for targeted analysis and troubleshooting of identified issues", "Implemented unit and integration tests to validate the effectiveness of the solutions"],
+    link: "https://www.desjardins.com/qc/en/business/accounts-treasury/accounts-payable/transferring-funds.html",
+    location: "Montreal, QC",
+    img: "./desjardins.png",
   },
   {
-    title: "Front-End Developer",
-    company: "Twitter",
-    date: "Jun 2018 - Oct 2019",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid.",
+    title: "Front-End Developer Intern",
+    company: "The Quebec Ministry of Public Security",
+    date: "May 2022 - Mar 2023",
+    desc: "Worked on IGO2, a free open source Web Geospatial solution used by various government departments",
+    points: ["Redesigned UI/UX to allow users to customize the application", "Enabled users to engage with geographical data in a dynamic way", "Integrated RESTful APIs to simplify user access to info and tools"],
+    link: "https://geoegl.msp.gouv.qc.ca/igo2/apercu-qc/?context=inspq",
+    location: "Montreal, QC (Remote)",
+    img: "./msp.png",
   },
   {
-    title: "Web Developer",
-    company: "Facebook",
-    date: "Jun 2017 - Jun 2018",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid.",
+    title: "CSUS Tutor",
+    company: "McGill University",
+    date: "Sep 2017 - Jun 2018",
+    desc: "On-the-spot troubleshooting and guidance for software engineering students in extensive range of topics",
+    points: ["Assisted students in understanding complex concepts and algorithms", "Provided guidance on assignments and projects", "Helped students debug their code and understand the errors"],
+    link: "https://www.mcgill-csus.ca/helpdesk",
+    location: "Montreal, QC",
+    img: "./csus.png",
   },
 ];
 
 export const educations = [
   {
-    title: "B. Eng. in Software Engineering",
-    date: "Aug 2020 - Apr 2024",
+    degree: "DEC in Health Science",
+    date: "Aug 2018 - May 2020",
+    university: "Ahuntsic College",
+    location: "Montreal, QC",
+    img: "./ahuntsic.png",
+    courses: "Calculus I and II, Linear Algebra, Physics, Chemistry, Biology, Organic Chemistry",
+  },
+  {
+    degree: "B. Eng. in Software Engineering",
+    date: "Sep 2020 - Apr 2024",
     university: "McGill University",
-    location: "McGill University (Montreal, QC)",
+    location: "Montreal, QC",
     img: "./mcgill.png",
     courses: "Web Development, Applied Machine Learning, Computer Vision, Object-Oriented Programming, Data Structures & Algorithms",
   },
+  
+  
 ];

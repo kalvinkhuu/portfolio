@@ -72,29 +72,6 @@ export default function Experience() {
           
               
             </div>
-
-            // <div className="p-4 md:w-1/2 w-full">
-            //   <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-            //     <h2 className="tracking-widest text-xs title-font font-medium text-green-400 mb-1">
-            //       {experience.company}
-            //     </h2>
-            //     <h1 className="title-font text-lg font-medium text-white mb-3">
-            //       {experience.position}
-            //     </h1>
-            //     <p className="leading-relaxed mb-5">{experience.description}</p>
-            //     <button onClick={() => setOpenDropdown(index)}>
-            //       Details
-            //     </button>
-            //     {openDropdown === index && (
-            //       <ul>
-            //         {experience.points.map((point) => (
-            //           <li>{point}</li>
-            //         ))}
-            //       </ul>
-            //     )}
-            //   </div>
-            // </div>
-
           ))}
         </div>
       </div>

@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Implemented a NLP model with BERT to classify & cluster info, and displaying it on an interactive web interface",
     image: "./Knowknot.gif",
-    link: "https://reactbootcamp.com",
+    link: "",
   },
   {
     title: "Dashcam Analyzer",
@@ -45,6 +45,16 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "CSUS Tutor",
+    company: "McGill University",
+    date: "Sep 2023 - Apr 2024",
+    desc: "On-the-spot troubleshooting and guidance for software engineering students in extensive range of topics",
+    points: ["Assisted students in understanding complex concepts and algorithms", "Provided guidance on assignments and projects", "Helped students debug their code and understand the errors"],
+    link: "https://www.mcgill-csus.ca/helpdesk",
+    location: "Montreal, QC",
+    img: "./csus.png",
+  },
+  {
     title: "Software Analyst Intern",
     company: "Desjardins Group",
     date: "May 2023 - Aug 2023",
@@ -64,16 +74,7 @@ export const experiences = [
     location: "Montreal, QC (Remote)",
     img: "./msp.png",
   },
-  {
-    title: "CSUS Tutor",
-    company: "McGill University",
-    date: "Sep 2017 - Jun 2018",
-    desc: "On-the-spot troubleshooting and guidance for software engineering students in extensive range of topics",
-    points: ["Assisted students in understanding complex concepts and algorithms", "Provided guidance on assignments and projects", "Helped students debug their code and understand the errors"],
-    link: "https://www.mcgill-csus.ca/helpdesk",
-    location: "Montreal, QC",
-    img: "./csus.png",
-  },
+  
 ];
 
 export const educations = [

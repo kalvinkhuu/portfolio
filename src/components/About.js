@@ -10,8 +10,7 @@ export default function About() {
               </h1>
               <p className="mb-8 leading-relaxed">
               Proficient, bilingual (English / French) junior software engineer with more than two years experience in developing, and implementing software
-              applications & tools. Dedicated team member with a strong drive to continuously deliver quality results and eagerness to
-              improve.
+              applications & tools. Located in Montreal, QC, Canada, but open to relocate!
               </p>
               <div className="flex justify-center">
                 <a

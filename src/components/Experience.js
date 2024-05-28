@@ -10,7 +10,7 @@ import './css/Experience.css';
 export default function Experience() {
   const [openDropdown, setOpenDropdown] = useState(null);
   return (
-    <section id="experience" className="mb-20">
+    <section id="experience" className="mb-20 relative pt-24 -mt-24">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-10">
           <UsersIcon className="w-10 inline-block mb-2 mx-auto"  />

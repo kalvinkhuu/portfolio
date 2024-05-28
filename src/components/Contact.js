@@ -118,16 +118,11 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <div title="Currently under maintenance">
-            <button
-              type="submit"
-              className="text-white bg-indigo-300 border-0 py-2 px-6 focus:outline-none rounded text-lg"
-              disabled
-              style={{ pointerEvents: 'none' }}
-            >
-              Not available
-            </button>
-          </div>
+          <button
+            type="submit"
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            Submit
+          </button>
         </form>
       </div>
     </section>

@@ -1,0 +1,4 @@
+.click-effect:active {
+    transform: scale(0.98); /* Slightly scale down */
+    background-color: #4b5563; /* Optional: change background color on click */
+  }

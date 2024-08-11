@@ -43,6 +43,56 @@ export const skills = [
   "Angular",
 ];
 
+// export const skills = {
+//   Languages: [
+//     { name: 'Java'},
+//     { name: 'Python'},
+//     { name: 'C'},
+//     { name: 'C#'},
+//     { name: 'C++'},
+//     { name: 'JavaScript'},
+//     { name: 'TypeScript'},
+//     { name: 'HTML/CSS'},
+//     { name: 'Unix Shell'},
+//     { name: 'Oracle SQL'}
+//   ],
+//   Frameworks: [
+//     { name: 'AWS'},
+//     { name: 'Azure'},
+//     { name: 'Node.js'},
+//     { name: 'Angular'},
+//     { name: 'React'},
+//     { name: 'Django'},
+//     { name: 'Spring'},
+//     { name: 'TensorFlow'},
+//     { name: 'PyTorch'},
+//     { name: 'Maven'},
+//     { name: 'Gradle'},
+//     { name: 'JUnit'},
+//     { name: 'OpenCV'},
+//     { name: 'Vue.js'},
+//     { name: 'Cucumber'},
+
+//   ],
+//   DeveloperTools: [
+//     { name: 'Git'},
+//     { name: 'GitHub'},
+//     { name: 'Android Studio'},
+//     { name: 'Docker'},
+//     { name: 'Postman'},
+//     { name: 'BitBucket'},
+//     { name: 'VS Code'},
+//     { name: 'IntelliJ IDEA'},
+//     { name: 'Jira'},
+//     { name: 'Figma'},
+//     { name: 'Confluence'},
+//     { name: 'Unity'},
+//     { name: 'Eclipse'},
+//     { name: 'PyCharm'},
+//     { name: 'Visual Studio'}
+//   ]
+// };
+
 export const experiences = [
   {
     title: "CSUS Tutor",
@@ -94,6 +144,14 @@ export const educations = [
     img: "./mcgill.png",
     courses: "Web Development, Applied Machine Learning, Computer Vision, Object-Oriented Programming, Data Structures & Algorithms",
   },
+  {
+    degree: "M. Eng. in Computing and Software",
+    date: "Sep 2024 - May 2026",
+    university: "McMaster University",
+    location: "Hamilton, ON",
+    img: "./mcmaster.jpg",
+    courses: "Microservice Architecture, Cloud Computing & Software Designs",
+  }
   
   
 ];

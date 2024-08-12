@@ -1,8 +1,6 @@
-// src/components/Testimonials
-
-import React from "react";
 import { AcademicCapIcon } from "@heroicons/react/solid";
 import { educations } from "../data";
+import React from "react";
 
 export default function Education() {
   const [isHovered, setIsHovered] = React.useState(null);
@@ -20,10 +18,11 @@ export default function Education() {
           </p>
         </div>
         
-        <div className="flex m-4 justify-center space-x-4">
+        <div className="flex flex-wrap m-4 justify-center gap-4">
           {educations.map((education, index) => (
             <div 
-              className="p-4 bg-gray-800 rounded-lg flex items-start sm:w-5/12 "
+              key={index}
+              className="p-4 bg-gray-800 rounded-lg flex items-start sm:w-5/12 w-full md:w-1/2 lg:w-1/3"
               onMouseEnter={() => setIsHovered(index)}
               onMouseLeave={() => setIsHovered(null)}
             >

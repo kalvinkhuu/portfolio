@@ -1,0 +1,56 @@
+.social-tooltip {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(58, 58, 58, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .social-tooltip:hover {
+    background-color: rgba(58, 58, 58, 1); /* Make the tooltip non-transparent on hover */
+  }
+  
+  .social-tooltip a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .social-tooltip a:hover {
+    text-decoration: underline;
+    color: #1da1f2;
+  }
+  
+  .social-tooltip a::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(241, 241, 241, 0.8);
+    color: black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .social-tooltip a:hover::after {
+    opacity: 1;
+  }
+  
+  .separator {
+    width: 2px;
+    height: 24px; /* Match the icon size */
+    background-color: white;
+  }

@@ -14,7 +14,7 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me  
           </h2>
-          <p className="leading-relaxed mb-4">If you have any questions, feel free to reach out to me through email or with the live chat in the corner of this website!</p>
+          <p className="leading-relaxed mb-4">If you have any questions, feel free to reach out to me through email or by phone!</p>
           <div className="w-full">
             <div className="mb-4">
               <a href="mailto:kalvin.khuu@gmail.com" className="w-full">
@@ -32,17 +32,6 @@ export default function Contact() {
                   <PhoneIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4"/>
                   <span className="title-font font-medium text-white">
                     (514) 992-7442
-                  </span>
-                </div>
-              </a>
-            </div>
-            
-            <div>
-              <a className="w-full">
-                <div className="bg-gray-800 hover:bg-gray-700 rounded flex p-4 h-full items-center transition duration-150 ease-in-out click-effect">
-                  <ChatAlt2Icon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4"/>
-                  <span className="title-font font-medium text-white">
-                    At the right corner of this website!
                   </span>
                 </div>
               </a>

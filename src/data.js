@@ -129,12 +129,12 @@ export const experiences = [
 
 export const educations = [
   {
-    degree: "DEC in Health Science",
-    date: "Aug 2018 - May 2020",
-    university: "Ahuntsic College",
-    location: "Montreal, QC",
-    img: "./ahuntsic.png",
-    courses: "Calculus I and II, Linear Algebra, Physics, Chemistry, Biology, Organic Chemistry",
+    degree: "M. Eng. in Computing and Software",
+    date: "Sep 2024 - May 2026",
+    university: "McMaster University",
+    location: "Hamilton, ON",
+    img: "./mcmaster.jpg",
+    courses: "Microservice Architecture, Cloud Computing & Software Designs",
   },
   {
     degree: "B. Eng. in Software Engineering",
@@ -143,14 +143,6 @@ export const educations = [
     location: "Montreal, QC",
     img: "./mcgill.png",
     courses: "Web Development, Applied Machine Learning, Computer Vision, Object-Oriented Programming, Data Structures & Algorithms",
-  },
-  {
-    degree: "M. Eng. in Computing and Software",
-    date: "Sep 2024 - May 2026",
-    university: "McMaster University",
-    location: "Hamilton, ON",
-    img: "./mcmaster.jpg",
-    courses: "Microservice Architecture, Cloud Computing & Software Designs",
   }
   
   

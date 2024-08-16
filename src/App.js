@@ -8,8 +8,8 @@ import Experience from "./components/Experience";
 import SmoothScroll from "smooth-scroll";
 // import TawkToChat from './components/TawkToChat';
 import SocialTooltip from "./components/SocialTooltip";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/react"
+// import { Analytics } from "@vercel/analytics/react"
+// import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 
@@ -25,8 +25,8 @@ export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       {/* <Navbar/> */}
-      <Analytics/>
-      <SpeedInsights/>
+      {/* <Analytics/>
+      <SpeedInsights/> */}
       <About />
       <Education className="mb-20" />
       <Experience className="mb-20" />

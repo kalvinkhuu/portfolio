@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -21,7 +21,6 @@ export default function App() {
       speedAsDuration: true,
     });
   }, []);
-
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       {/* <Navbar/> */}
@@ -31,8 +30,8 @@ export default function App() {
       <Education className="mb-20" />
       <Experience className="mb-20" />
       <Projects className="mb-20" />
-      <Skills className="mb-20" />
-      <Contact />
+      <Skills />
+      {/* <Contact /> */}
       <SocialTooltip />
       {/* <TawkToChat /> */}
     </main>

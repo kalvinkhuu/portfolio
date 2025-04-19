@@ -41,6 +41,16 @@ export const skills = [
   "React",
   "JavaScript",
   "Angular",
+  // "TypeScript",
+  // "HTML/CSS",
+  // "C",
+  // "C++",
+  // "C#",
+  // "Django",
+  // "TensorFlow",
+  // "PyTorch",
+  // "OpenCV",
+  // "Git",
 ];
 
 // export const skills = {
@@ -95,6 +105,16 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Research Assistant III",
+    company: "McSCert",
+    date: "May 2025 - Aug 2025",
+    desc: "Worked on jPipe, an open-source justification modeling language to support software maintenance activities",
+    points: ["Designed and developed an interactive guidance system to assist developers in constructing fairness justification diagrams for ML pipelines", "Implemented justification frameworks related to fairness definitions and FATES principles", "Presented the system prototype in academic settings to gather user feedback and demonstrate its role in supporting fairness-aware ML development"],
+    link: "https://www.jpipe.org/",
+    location: "Hamilton, ON",
+    img: "./jpipe.png",
+  },
+  {
     title: "CSUS Tutor",
     company: "McGill University",
     date: "Sep 2023 - Apr 2024",
@@ -134,7 +154,7 @@ export const educations = [
     university: "McMaster University",
     location: "Hamilton, ON",
     img: "./mcmaster.jpg",
-    courses: "Microservice Architecture, Cloud Computing & Software Designs",
+    courses: "Machine Learning, Software Engineering, Human-Centered AI",
   },
   {
     degree: "B. Eng. in Software Engineering",
@@ -146,4 +166,23 @@ export const educations = [
   }
   
   
+];
+
+export const researchPapers = [
+  {
+    title: "Comparative Analysis of Traditional, Machine Learning and Neural Network-Based Methods for Scalable and Accurate Duplicate Detection",
+    authors: "Kalvin Thuan-Phong Khuu",
+    abstract: "",
+    publicationDate: "December 2024",
+    course: "CAS 764",
+    link: "https://example.com/deep-learning-nlp",
+  },
+  {
+    title: "Blockchain in Healthcare",
+    authors: "Alice Johnson, Bob Brown",
+    abstract: "An analysis of blockchain applications in the healthcare industry...",
+    publicationDate: "January 2024",
+    journal: "Healthcare Technology Journal",
+    link: "https://example.com/blockchain-healthcare",
+  },
 ];

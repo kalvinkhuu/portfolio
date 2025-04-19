@@ -46,7 +46,7 @@ export default function Education() {
               )}
               {isHovered === index && (
                 <div className="flex-grow ml-6 p-2 font-light">
-                  <b>Courses: </b> {education.courses}
+                  <b>Topics: </b> {education.courses}
                 </div>
               )}
             </div>

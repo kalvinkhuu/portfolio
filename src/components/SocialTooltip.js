@@ -29,7 +29,7 @@ const SocialTooltip = () => {
       <a href="https://github.com/kalvinkhuu" target="_blank" rel="noopener noreferrer" data-title="GitHub">
         <FaGithub size={24} />
       </a>
-      <a href="#contact" target="_blank" rel="noopener noreferrer" data-title="Contact">
+      <a href="mailto:kalvin.khuu@gmail.com" target="_blank" rel="noopener noreferrer" data-title="Contact">
         <FaMailBulk size={24} />
       </a>
     </div>
